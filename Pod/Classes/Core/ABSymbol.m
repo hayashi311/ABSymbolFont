@@ -6,6 +6,5 @@
 #import "ABSymbol.h"
 
 const struct ABSymbol ABSymbol = {
-        .Setting = @"setting"
+        .Lolipop = @"lolipop",
 };
-

@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 
 extern const struct ABSymbol {
-__unsafe_unretained NSString *const Lolipop;
-    
+    __unsafe_unretained NSString *const Setting;
 } ABSymbol;
+
 

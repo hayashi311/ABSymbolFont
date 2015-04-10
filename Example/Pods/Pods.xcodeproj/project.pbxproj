@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051687A3556991470C49BA06 /* ABSymbolImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E0F1759CA466E2536F750 /* ABSymbolImageView.m */; };
+		2059C85275C1DBD92BEEBA44 /* UIFont+ABSymbolFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BF2D6A425F011DB13463D /* UIFont+ABSymbolFont.m */; };
+		26F3CDD7B68381ED139979CF /* UIImage+ABSymbolFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 1981DBB6A304DBB08BEBDE78 /* UIImage+ABSymbolFont.m */; };
+		297035CDECF361526EC6E6D4 /* ABSymbolImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D223E1FCDD06AA49334B1A /* ABSymbolImageView.h */; };
+		4C2AAF0498E72068752E843C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6613DE0EC75A8537341B022D /* MapKit.framework */; };
+		8A56DF7854219BE5F8FB4380 /* ABSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A5964841D11723FFDC1236 /* ABSymbol.m */; };
+		9F77AFAAEDA8AD5B1BCE50E0 /* Pods-ABSymbolFont-ABSymbolFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4824D281DC56E803FA272A /* Pods-ABSymbolFont-ABSymbolFont-dummy.m */; };
+		A08A80B6ED172B66D75C781A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6DBA202C8890539994ACE /* Foundation.framework */; };
+		A15DF80E956F96FA5300230E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F6C9A7169905251C869625 /* UIKit.framework */; };
+		B067C6A6F37DF51BA937A3CE /* Pods-ABSymbolFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E26521B28A239DC3131126 /* Pods-ABSymbolFont-dummy.m */; };
+		B86BEA6E4C69B3B966B9F8FA /* UIFont+ABSymbolFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 762A7643AFF77A266C6D1FA1 /* UIFont+ABSymbolFont.h */; };
+		C87CA15C1479503FE9F56632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6DBA202C8890539994ACE /* Foundation.framework */; };
+		DB42155043DBA4DCEFA80796 /* UIImage+ABSymbolFont.h in Headers */ = {isa = PBXBuildFile; fileRef = FCADD30FC4EE65CA828663B0 /* UIImage+ABSymbolFont.h */; };
+		F96B4E3E64ECB602E91F88CE /* ABSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 60705EBFBAE649C7F8F0F1DE /* ABSymbol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D608CCB1F324EFC90C89C8C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE156653D2C70E3BDE448FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C19AB675F9E9E98B734726;
+			remoteInfo = "Pods-ABSymbolFont-ABSymbolFont";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00706307EC3151C2984DF1E8 /* libPods-ABSymbolFont-ABSymbolFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABSymbolFont-ABSymbolFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		018DAD8ABD4B9614AF882151 /* Pods-ABSymbolFont-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABSymbolFont-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08FE01D1F449633488C36457 /* Pods-ABSymbolFont-ABSymbolFont-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSymbolFont-ABSymbolFont-Private.xcconfig"; sourceTree = "<group>"; };
+		1981DBB6A304DBB08BEBDE78 /* UIImage+ABSymbolFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ABSymbolFont.m"; sourceTree = "<group>"; };
+		2F585BC6F64B267C51ABD56D /* Pods-ABSymbolFont-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABSymbolFont-resources.sh"; sourceTree = "<group>"; };
+		35F6C9A7169905251C869625 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		38E26521B28A239DC3131126 /* Pods-ABSymbolFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABSymbolFont-dummy.m"; sourceTree = "<group>"; };
+		3A2BF2D6A425F011DB13463D /* UIFont+ABSymbolFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ABSymbolFont.m"; sourceTree = "<group>"; };
+		4BD4E9AA8631D1E80A07A463 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		54A5964841D11723FFDC1236 /* ABSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ABSymbol.m; sourceTree = "<group>"; };
+		60705EBFBAE649C7F8F0F1DE /* ABSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABSymbol.h; sourceTree = "<group>"; };
+		6613DE0EC75A8537341B022D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		67E6DBA202C8890539994ACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		762A7643AFF77A266C6D1FA1 /* UIFont+ABSymbolFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+ABSymbolFont.h"; sourceTree = "<group>"; };
+		825D66F0F9C6E5DE0ACE36EB /* libPods-ABSymbolFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABSymbolFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		918BB531977DD20B040F1937 /* Pods-ABSymbolFont-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABSymbolFont-environment.h"; sourceTree = "<group>"; };
+		A20FCB15EEE6873CDFF2E69C /* Pods-ABSymbolFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSymbolFont.release.xcconfig"; sourceTree = "<group>"; };
+		C29E0F1759CA466E2536F750 /* ABSymbolImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ABSymbolImageView.m; sourceTree = "<group>"; };
+		CA4824D281DC56E803FA272A /* Pods-ABSymbolFont-ABSymbolFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABSymbolFont-ABSymbolFont-dummy.m"; sourceTree = "<group>"; };
+		D5D0A5C07505F13BBE553627 /* Pods-ABSymbolFont-ABSymbolFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSymbolFont-ABSymbolFont.xcconfig"; sourceTree = "<group>"; };
+		ECBE6851937F6C49FBD7A82A /* Pods-ABSymbolFont-ABSymbolFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABSymbolFont-ABSymbolFont-prefix.pch"; sourceTree = "<group>"; };
+		F14E088F562838AC0C981B04 /* Pods-ABSymbolFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABSymbolFont.debug.xcconfig"; sourceTree = "<group>"; };
+		F74A4EA1472DA50E2B824835 /* Pods-ABSymbolFont-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABSymbolFont-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7D223E1FCDD06AA49334B1A /* ABSymbolImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABSymbolImageView.h; sourceTree = "<group>"; };
+		FCADD30FC4EE65CA828663B0 /* UIImage+ABSymbolFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ABSymbolFont.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072099A55E2B06AF892EA3D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87CA15C1479503FE9F56632 /* Foundation.framework in Frameworks */,
+				4C2AAF0498E72068752E843C /* MapKit.framework in Frameworks */,
+				A15DF80E956F96FA5300230E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2FB27A30C699E3F45D9D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08A80B6ED172B66D75C781A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CAA5DB0964A3943BE7F1E6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A561CDED538F3AE3FF70F605 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		0BB50521898EA76DA5316D91 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				60705EBFBAE649C7F8F0F1DE /* ABSymbol.h */,
+				54A5964841D11723FFDC1236 /* ABSymbol.m */,
+				762A7643AFF77A266C6D1FA1 /* UIFont+ABSymbolFont.h */,
+				3A2BF2D6A425F011DB13463D /* UIFont+ABSymbolFont.m */,
+				FCADD30FC4EE65CA828663B0 /* UIImage+ABSymbolFont.h */,
+				1981DBB6A304DBB08BEBDE78 /* UIImage+ABSymbolFont.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		105931012E07D989587AB9C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3097E20E9BF378F21AA3545C /* Pods-ABSymbolFont */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2392D5DB91D27F7742FB780D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EA39BED21E727E802E3E43 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3097E20E9BF378F21AA3545C /* Pods-ABSymbolFont */ = {
+			isa = PBXGroup;
+			children = (
+				018DAD8ABD4B9614AF882151 /* Pods-ABSymbolFont-acknowledgements.markdown */,
+				F74A4EA1472DA50E2B824835 /* Pods-ABSymbolFont-acknowledgements.plist */,
+				38E26521B28A239DC3131126 /* Pods-ABSymbolFont-dummy.m */,
+				918BB531977DD20B040F1937 /* Pods-ABSymbolFont-environment.h */,
+				2F585BC6F64B267C51ABD56D /* Pods-ABSymbolFont-resources.sh */,
+				F14E088F562838AC0C981B04 /* Pods-ABSymbolFont.debug.xcconfig */,
+				A20FCB15EEE6873CDFF2E69C /* Pods-ABSymbolFont.release.xcconfig */,
+			);
+			name = "Pods-ABSymbolFont";
+			path = "Target Support Files/Pods-ABSymbolFont";
+			sourceTree = "<group>";
+		};
+		401B07A77ED9208800345351 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0BB50521898EA76DA5316D91 /* Core */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4F1BAEB4A7668036BDE9B950 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				401B07A77ED9208800345351 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		946A359C124F97D766DE6213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825D66F0F9C6E5DE0ACE36EB /* libPods-ABSymbolFont.a */,
+				00706307EC3151C2984DF1E8 /* libPods-ABSymbolFont-ABSymbolFont.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		948FE0C2299845FB9FC334B8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BAEB4A7668036BDE9B950 /* Pod */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A561CDED538F3AE3FF70F605 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE59393C3177DC38E8747FCC /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AB8776716D9EEDC07B5E80CD = {
+			isa = PBXGroup;
+			children = (
+				4BD4E9AA8631D1E80A07A463 /* Podfile */,
+				E10589573A9D8BC47040D127 /* Development Pods */,
+				2392D5DB91D27F7742FB780D /* Frameworks */,
+				946A359C124F97D766DE6213 /* Products */,
+				105931012E07D989587AB9C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B0667DF00C592D121ED835B4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				01CAA5DB0964A3943BE7F1E6 /* Pod */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BAE690FA2DB220E1FCCFCBE3 /* ABSymbolFont */ = {
+			isa = PBXGroup;
+			children = (
+				948FE0C2299845FB9FC334B8 /* Core */,
+				E8A42294C8D9FA9F1D822CB8 /* Support Files */,
+				B0667DF00C592D121ED835B4 /* UI */,
+			);
+			name = ABSymbolFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D5EA39BED21E727E802E3E43 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				67E6DBA202C8890539994ACE /* Foundation.framework */,
+				6613DE0EC75A8537341B022D /* MapKit.framework */,
+				35F6C9A7169905251C869625 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E10589573A9D8BC47040D127 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE690FA2DB220E1FCCFCBE3 /* ABSymbolFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E8A42294C8D9FA9F1D822CB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5D0A5C07505F13BBE553627 /* Pods-ABSymbolFont-ABSymbolFont.xcconfig */,
+				08FE01D1F449633488C36457 /* Pods-ABSymbolFont-ABSymbolFont-Private.xcconfig */,
+				CA4824D281DC56E803FA272A /* Pods-ABSymbolFont-ABSymbolFont-dummy.m */,
+				ECBE6851937F6C49FBD7A82A /* Pods-ABSymbolFont-ABSymbolFont-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ABSymbolFont-ABSymbolFont";
+			sourceTree = "<group>";
+		};
+		EE59393C3177DC38E8747FCC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F7D223E1FCDD06AA49334B1A /* ABSymbolImageView.h */,
+				C29E0F1759CA466E2536F750 /* ABSymbolImageView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		97333391987042D480F11F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96B4E3E64ECB602E91F88CE /* ABSymbol.h in Headers */,
+				297035CDECF361526EC6E6D4 /* ABSymbolImageView.h in Headers */,
+				B86BEA6E4C69B3B966B9F8FA /* UIFont+ABSymbolFont.h in Headers */,
+				DB42155043DBA4DCEFA80796 /* UIImage+ABSymbolFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		87C19AB675F9E9E98B734726 /* Pods-ABSymbolFont-ABSymbolFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6713892EBC02BA2DBF2FF34 /* Build configuration list for PBXNativeTarget "Pods-ABSymbolFont-ABSymbolFont" */;
+			buildPhases = (
+				88BABADD7362B5EAEC96B5D8 /* Sources */,
+				072099A55E2B06AF892EA3D5 /* Frameworks */,
+				97333391987042D480F11F97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ABSymbolFont-ABSymbolFont";
+			productName = "Pods-ABSymbolFont-ABSymbolFont";
+			productReference = 00706307EC3151C2984DF1E8 /* libPods-ABSymbolFont-ABSymbolFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2CD4F52CF55AC4B2E4F5A45 /* Pods-ABSymbolFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ADE3E130C44B726B008587C /* Build configuration list for PBXNativeTarget "Pods-ABSymbolFont" */;
+			buildPhases = (
+				A8B840B9DB8A9FAE2AD4026F /* Sources */,
+				BC2FB27A30C699E3F45D9D0E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B5325452CD2921C228B3F61 /* PBXTargetDependency */,
+			);
+			name = "Pods-ABSymbolFont";
+			productName = "Pods-ABSymbolFont";
+			productReference = 825D66F0F9C6E5DE0ACE36EB /* libPods-ABSymbolFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE156653D2C70E3BDE448FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = E4E2B7935E4880AA00FA0A5A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB8776716D9EEDC07B5E80CD;
+			productRefGroup = 946A359C124F97D766DE6213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2CD4F52CF55AC4B2E4F5A45 /* Pods-ABSymbolFont */,
+				87C19AB675F9E9E98B734726 /* Pods-ABSymbolFont-ABSymbolFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88BABADD7362B5EAEC96B5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A56DF7854219BE5F8FB4380 /* ABSymbol.m in Sources */,
+				051687A3556991470C49BA06 /* ABSymbolImageView.m in Sources */,
+				9F77AFAAEDA8AD5B1BCE50E0 /* Pods-ABSymbolFont-ABSymbolFont-dummy.m in Sources */,
+				2059C85275C1DBD92BEEBA44 /* UIFont+ABSymbolFont.m in Sources */,
+				26F3CDD7B68381ED139979CF /* UIImage+ABSymbolFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B840B9DB8A9FAE2AD4026F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B067C6A6F37DF51BA937A3CE /* Pods-ABSymbolFont-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B5325452CD2921C228B3F61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ABSymbolFont-ABSymbolFont";
+			target = 87C19AB675F9E9E98B734726 /* Pods-ABSymbolFont-ABSymbolFont */;
+			targetProxy = D608CCB1F324EFC90C89C8C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69CF0EB45CC0D5E1568136D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20FCB15EEE6873CDFF2E69C /* Pods-ABSymbolFont.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		72474C7979A72E77FD896748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14E088F562838AC0C981B04 /* Pods-ABSymbolFont.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7F228F73F9CD94676E509961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90190B485E26974525401DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BBD6C41553F24B210D8142F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FE01D1F449633488C36457 /* Pods-ABSymbolFont-ABSymbolFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ABSymbolFont-ABSymbolFont/Pods-ABSymbolFont-ABSymbolFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CADFFBB5F84F03B61EA7F118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FE01D1F449633488C36457 /* Pods-ABSymbolFont-ABSymbolFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ABSymbolFont-ABSymbolFont/Pods-ABSymbolFont-ABSymbolFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ADE3E130C44B726B008587C /* Build configuration list for PBXNativeTarget "Pods-ABSymbolFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72474C7979A72E77FD896748 /* Debug */,
+				69CF0EB45CC0D5E1568136D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E2B7935E4880AA00FA0A5A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90190B485E26974525401DE3 /* Debug */,
+				7F228F73F9CD94676E509961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6713892EBC02BA2DBF2FF34 /* Build configuration list for PBXNativeTarget "Pods-ABSymbolFont-ABSymbolFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD6C41553F24B210D8142F0 /* Debug */,
+				CADFFBB5F84F03B61EA7F118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE156653D2C70E3BDE448FAF /* Project object */;
+}

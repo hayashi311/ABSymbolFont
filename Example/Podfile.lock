@@ -1,0 +1,18 @@
+PODS:
+  - ABSymbolFont (0.1.0):
+    - ABSymbolFont/Core (= 0.1.0)
+    - ABSymbolFont/UI (= 0.1.0)
+  - ABSymbolFont/Core (0.1.0)
+  - ABSymbolFont/UI (0.1.0)
+
+DEPENDENCIES:
+  - ABSymbolFont (from `../`)
+
+EXTERNAL SOURCES:
+  ABSymbolFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ABSymbolFont: 0518d689b4b4f4cb738f194997b3328803367af6
+
+COCOAPODS: 0.36.0
